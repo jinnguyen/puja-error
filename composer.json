@@ -1,0 +1,22 @@
+{
+  "name": "jinnguyen/puja-error",
+  "description": "Puja-Error are the handler layers, that handle all fatal exceptions/errors ( include fatal errors) from PHP application. Support  callback function",
+  "type": "library",
+  "license": "Apache License 2.0",
+  "keywords": ["Puja Error", "Puja", "Error"],
+  "authors": [
+      {
+          "name": "Jin Nguyen",
+          "email": "w2ajax@gmail.com"
+      }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+      "jinnguyen/puja-entity": "^1"
+  },
+  "autoload": {
+      "psr-4": {
+          "Puja\\Error\\": "src/"
+      }
+  }
+}
