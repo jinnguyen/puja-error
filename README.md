@@ -33,3 +33,6 @@ new ErrorManager(array(
 $a = new A();
 $a->c();
 </pre>
+
+<strong>Result</strong> <br />
+<img src="https://github.com/jinnguyen/puja-error/blob/master/demo/puja-error-demo.png" />
